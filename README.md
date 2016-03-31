@@ -85,7 +85,7 @@ $gcm->send($push_tokens, $message,
   ],
   [
     'timeToLive' => 3
-  ],
+  ]
 );
 ```
 
@@ -102,7 +102,7 @@ $apnsGcm->send(\bryglen\apnsgcm\ApnsGcm::TYPE_GCM, $push_tokens, $message,
   ],
   [
     'timeToLive' => 3
-  ],
+  ]
 )
 ```
 
@@ -118,6 +118,6 @@ $apnsGcm->send(\bryglen\apnsgcm\ApnsGcm::TYPE_APNS, $push_tokens, $message,
   [
     'sound' => 'default',
   	'badge' => 1
-  ],
+  ]
 )
 ```
